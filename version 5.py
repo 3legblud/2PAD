@@ -111,7 +111,7 @@ Qty_items_label.config(bg="#fcd9df")
 #adding a add item button
 add_item_button = tkinter.Button(Customer_info_frame, text = "Add item", command = add_item)
 add_item_button.grid(row=6, column=0,columnspan=3,sticky = "news", padx=20, pady=5)
-add_item_button.config(bg="#fcd9df")
+
 
 #adding a display box
 #tree is for the message box 
@@ -133,7 +133,7 @@ Close_button.config(bg="#fcd9df")
 #position of delete button
 delete_button = tkinter.Button(Customer_info_frame, text="Delete", command=delete_records)
 delete_button.grid(row=7, column=0,columnspan=3,sticky="news", padx=20, pady=5)
-delete_button.config(bg="#fcd9df")
+
 
 
 window.mainloop()
